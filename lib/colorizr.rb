@@ -16,4 +16,11 @@ class String
   def self.colors
     colors_map.keys
   end
+
+  def self.sample_colors
+    colors_map.each do |color, ansi_value|
+      puts "This is \e[38;5;#{ansi_value}m #{color.to_s}\e[0m"
+    end
+    return nil
+  end
 end
