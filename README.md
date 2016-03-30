@@ -14,7 +14,7 @@ require 'colorizr'
 
 String.colors
 # Returns all available colors array
-[:default, :black, :red, :green, :yellow, :blue, :magenta, :cyan, :light_gray, :dark_gray, :light_red, :light_green, :light_yellow, :light_blue, :pink, :light_cyan, :white]
+[:default, :black, :red, :green, :yellow, :blue, :magenta, :cyan, :light_grey, :dark_grey, :light_red, :light_green, :light_yellow, :light_blue, :pink, :light_cyan, :white]
 
 String.sample_colors
 # Prints sample of all available colors
