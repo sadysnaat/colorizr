@@ -14,10 +14,13 @@ require 'colorizr'
 
 String.colors
 # Returns all available colors array
-[:red, :green, :yellow, :blue, :pink, :light_blue, :white, :light_grey, :black] 
+[:default, :black, :red, :green, :yellow, :blue, :magenta, :cyan, :light_gray, :dark_gray, :light_red, :light_green, :light_yellow, :light_blue, :pink, :light_cyan, :white]
+
+String.sample_colors
+# Prints sample of all available colors
 
 puts "Deepak".red
-#prints "Deepak" with red foregrounf color
+# Prints "Deepak" with red foreground color
 ```
 
 ##Author
