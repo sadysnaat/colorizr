@@ -21,7 +21,10 @@ String.sample_colors
 
 puts "Deepak".red
 # Prints "Deepak" with red foreground color
-# We can use methods in array returned by String.colors
+
+puts "Sharma".light_green
+# Prints "Deepak" with light_green foreground color
+# We can use color methods in array returned by String.colors
 ```
 
 ##Author
