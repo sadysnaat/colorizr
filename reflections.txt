@@ -1,0 +1,22 @@
+How does your gem take advantage of Ruby’s metaprogramming capabilities?
+* It opens String class and adds class methods to it. One class method is 
+  responsible for generating the instance methods.
+* As we have added new methods to String class users can use these methods 
+  on String instance "Deepak".red  or "Deepak".green to print color output
+  on terminal.
+  
+How long did you spend working on this project?
+* I worked for 2 days on this project. And Survivr 1 for 1 week.
+
+What was the most rewarding challenge you conquered?
+* Understanding Metaprogramming was a reward in iteself :P. I learnt a lot of new things.
+  Send methods, instance_eval, class_eval and define_method were very new and unique for 
+  my undestanding the way these methods affect the class and instances. So it a good deal
+  of time and googling to understand it.
+
+Where do you still have room to grow?
+* I need to explore more about metaprogramming and gems. I learnt about gems but I have doubts 
+  about structure of gems. I will study more gems from simple to complex to have a understanding 
+  how gems are structured. e.g. Colorizer module has a folder colorize and a colorizer.rb inside 
+  lib folder. 
+* I need to practice more and write code.
