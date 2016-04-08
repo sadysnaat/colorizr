@@ -46,4 +46,7 @@ class String
       return self.send(name)
     end
   end
+  def respond_to_missing?(method_name, include_private=false)
+    @@colors_map.key? method_name
+  end
 end
